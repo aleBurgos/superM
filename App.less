@@ -1,0 +1,15 @@
+// global variables definitions
+@grey: #ccc;
+
+// exported to be used from js
+:export {
+  grey: @grey;
+}
+
+.app {
+  background-color: @grey;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  flex: 1;
+}
