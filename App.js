@@ -9,23 +9,36 @@
 import React, {Fragment} from 'react';
 import {View, Text} from 'react-native';
 import styles from './App.less';
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
+import { createDrawerNavigator, createAppContainer, createStackNavigator } from 'react-navigation';
 
 
 const App = () => {
   return (
     <Fragment >
-      <View style={[styles.app,{backgroundColor:styles.grey}]}>
+      <View style={[styles.app]}>
         <Text>working on!</Text>
       </View>
     </Fragment>
   );
 };
 
-const TabNavigator = createBottomTabNavigator({
-  Home: App,
+
+
+const MainNavigator = createStackNavigator({
+  App: {
+    screen: App
+  }
 });
 
-export default createAppContainer(TabNavigator);
 
+const AppNavigator =  createDrawerNavigator(
+    {
+      Main: MainNavigator,
+    },
+    {
+
+    }
+);
+// export default createAppContainer(AppNavigator);
+export default from './storybook';
 // export default App;
