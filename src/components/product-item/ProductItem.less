@@ -1,0 +1,70 @@
+@import '../../_shared/variables';
+.product_item {
+  height: 100px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 7px 5px 5px;
+  border: 1px solid #eaeaea;
+}
+
+.product_item__img {
+  height: 80px;
+  width: 80px;
+  padding: 6px;
+}
+
+.product_item__info {
+  flex: 1;
+}
+
+.pi_info__title {
+}
+
+.pi_info__price {
+  font-weight: 600;
+}
+
+.pi_info__quantity {
+  border: 1px solid @primaryColorDark;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 2px 4px;
+  color: @primaryColorDark;
+  font-weight: bold;
+}
+
+.pi_info__total  {
+  color: @primaryColorDark;
+  font-weight: bold;
+}
+
+.pi_info__unit {
+  color: #848484;
+  font-size: 13px;
+}
+
+.pi_info__promo {
+  color: orange;
+  font-weight: bold;
+}
+
+.product_item__actions__add {
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  height: 100px;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid gainsboro;
+  border-left-width: 2px;
+  z-index: 3;
+}
+
+.product_item__actions {
+  width: 60px;
+  align-items: center;
+}

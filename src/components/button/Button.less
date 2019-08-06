@@ -1,13 +1,20 @@
 @import '../../_shared/variables';
 .button {
-  border-radius: 2px;
+  border-radius: 4px;
   background-color: @primaryColor;
-  padding: 0 4px;
-  border-bottom-width: 4px;
+  padding: 0 6px;
+  border-bottom-width: 3px;
   border-bottom-color: @primaryColorDark;
+  box-shadow: 0 3px 2px rgba(0,0,0,0.15);
+  justify-content: center;
+  align-items: center;
+}
+.button--pressing {
+  border-bottom-width: 1px;
 }
 
 .button__text {
   color: white;
   font-weight: bold;
+  font-size: 24px;
 }
