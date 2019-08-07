@@ -1,0 +1,2302 @@
+[
+  {
+    "id": "100",
+    "name": "Almacén",
+    "order": "111",
+    "icon":"🧺",
+    "subcategory": [
+      {
+        "id": "244901",
+        "name": "Aceites y Vinagres",
+        "order": "1",
+        "subcategory": [
+          {
+            "id": "244902",
+            "name": "Aceites Comunes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "244903",
+            "name": "Aceites Especiales",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "244904",
+            "name": "Acetos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "244905",
+            "name": "Jugos de Limón",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "244906",
+            "name": "Vinagres",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136678",
+        "name": "Aderezos",
+        "order": "2",
+        "subcategory": [
+          {
+            "id": "136679",
+            "name": "Mayonesas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136680",
+            "name": "Ketchup",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136681",
+            "name": "Mostazas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136682",
+            "name": "Salsas Golf",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136683",
+            "name": "Salsas Frías",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136684",
+            "name": "Otros Condimentos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136759",
+        "name": "Comidas Para Bebes",
+        "order": "3",
+        "subcategory": []
+      },
+      {
+        "id": "235517",
+        "name": "Arroz y Legumbres",
+        "order": "3",
+        "subcategory": [
+          {
+            "id": "235518",
+            "name": "Arroz",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "235519",
+            "name": "Legumbres",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136605",
+        "name": "Conservas",
+        "order": "4",
+        "subcategory": [
+          {
+            "id": "136606",
+            "name": "Conservas de Carne",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136607",
+            "name": "Conservas de Frutas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136608",
+            "name": "Conservas de Pescado",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136609",
+            "name": "Conservas de Tomate",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136610",
+            "name": "Conservas de Verduras y Legumbres",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136611",
+        "name": "Desayuno y Merienda",
+        "order": "5",
+        "subcategory": [
+          {
+            "id": "136612",
+            "name": "Azúcar y Edulcorantes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136613",
+            "name": "Bizcochuelos, Budines y Madalenas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136624",
+            "name": "Dulce de Leche",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136614",
+            "name": "Cacao y Saborizantes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136615",
+            "name": "Cafés",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136616",
+            "name": "Cereales",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136617",
+            "name": "Galletitas Dulces",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136618",
+            "name": "Galletitas Saladas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136619",
+            "name": "Leches",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136620",
+            "name": "Mermeladas y Jaleas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136623",
+            "name": "Piononos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136621",
+            "name": "Tés",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136622",
+            "name": "Yerbas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136625",
+        "name": "Golosinas y Chocolates",
+        "order": "5",
+        "subcategory": [
+          {
+            "id": "136626",
+            "name": "Alfajores",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136627",
+            "name": "Bocaditos y Postres",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136628",
+            "name": "Bombones",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136629",
+            "name": "Caramelos y Chicles",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136630",
+            "name": "Chocolates",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136631",
+            "name": "Turrones y Grageas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136685",
+        "name": "Panificados",
+        "order": "8",
+        "subcategory": [
+          {
+            "id": "136686",
+            "name": "Lacteados",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136687",
+            "name": "Pan para Hamburguesas y Panchos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136688",
+            "name": "Tostadas y Grisines",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136689",
+            "name": "Pan Rallado y Rebozador",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136690",
+            "name": "Integral y Salvado",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136718",
+        "name": "Para Preparar",
+        "order": "8",
+        "subcategory": [
+          {
+            "id": "136719",
+            "name": "Bizcochuelos, Brownies y Tortas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136720",
+            "name": "Comidas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136721",
+            "name": "Flanes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136722",
+            "name": "Gelatinas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136723",
+            "name": "Helados",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136724",
+            "name": "Mousse",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136725",
+            "name": "Pastelería",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136726",
+            "name": "Postres",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136760",
+        "name": "Pastas Secas y Salsas",
+        "order": "9",
+        "subcategory": [
+          {
+            "id": "136761",
+            "name": "Pastas Secas Guiseras",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136762",
+            "name": "Pastas Secas Largas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136763",
+            "name": "Pastas Listas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136764",
+            "name": "Salsas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136710",
+        "name": "Productos para Celíacos",
+        "order": "10",
+        "subcategory": []
+      },
+      {
+        "id": "136711",
+        "name": "Sal, Pimienta y Especias",
+        "order": "11",
+        "subcategory": [
+          {
+            "id": "136712",
+            "name": "Sal",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136713",
+            "name": "Especias",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136747",
+        "name": "Snacks",
+        "order": "12",
+        "subcategory": [
+          {
+            "id": "136748",
+            "name": "Frutas Secas y Disecadas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136749",
+            "name": "Manís",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136750",
+            "name": "Nachos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136751",
+            "name": "Palitos de Maiz",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136752",
+            "name": "Palitos Salados",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136753",
+            "name": "Papas Fritas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136754",
+            "name": "Pochoclos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136755",
+            "name": "Snacks",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "142149",
+        "name": "Sopas, Caldos, Puré y Bolsas",
+        "order": "13",
+        "subcategory": [
+          {
+            "id": "142153",
+            "name": "Bolsas para Horno",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "142150",
+            "name": "Purés",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "142151",
+            "name": "Sopas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "142152",
+            "name": "Caldos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "101",
+    "name": "Bebidas",
+    "order": "112",
+    "icon":"🍷",
+    "AgrupacionArchivo": "785133.jpg",
+    "AgrupacionTitulo": "Tang",
+    "AgrupacionUrl": "https://www.disco.com.ar/Comprar/Home.aspx#_atCategory=false&_atGrilla=true&_id=51828",
+    "AgrupacionTargetUrl": "1",
+    "subcategory": [
+      {
+        "id": "136765",
+        "name": "A Base de Hierbas",
+        "order": "21",
+        "subcategory": []
+      },
+      {
+        "id": "245810",
+        "name": "Aguas",
+        "order": "22",
+        "subcategory": [
+          {
+            "id": "245811",
+            "name": "Aguas Sin Gas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "245812",
+            "name": "Aguas Con Gas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "245813",
+            "name": "Aguas Saborizadas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136770",
+        "name": "Aperitivos",
+        "order": "23",
+        "subcategory": []
+      },
+      {
+        "id": "136771",
+        "name": "Bebidas Blancas",
+        "order": "24",
+        "subcategory": []
+      },
+      {
+        "id": "136772",
+        "name": "Cervezas",
+        "order": "25",
+        "subcategory": []
+      },
+      {
+        "id": "136774",
+        "name": "Champagnes",
+        "order": "26",
+        "subcategory": []
+      },
+      {
+        "id": "136775",
+        "name": "Gaseosas",
+        "order": "27",
+        "subcategory": [
+          {
+            "id": "136776",
+            "name": "Cola",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136777",
+            "name": "Lima Limón",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136778",
+            "name": "Naranja",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136779",
+            "name": "Pomelo",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136780",
+            "name": "Tónica",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136781",
+            "name": "Guaraná",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136801",
+        "name": "Generosos",
+        "order": "28",
+        "subcategory": []
+      },
+      {
+        "id": "136782",
+        "name": "Hielo",
+        "order": "29",
+        "subcategory": []
+      },
+      {
+        "id": "136783",
+        "name": "Isotónicas",
+        "order": "30",
+        "subcategory": []
+      },
+      {
+        "id": "136789",
+        "name": "Jugos",
+        "order": "31",
+        "subcategory": [
+          {
+            "id": "136791",
+            "name": "En Polvo",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136792",
+            "name": "Listos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136793",
+            "name": "Granadina",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136790",
+            "name": "Frescos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136802",
+        "name": "Licores",
+        "order": "32",
+        "subcategory": []
+      },
+      {
+        "id": "136794",
+        "name": "Sidras",
+        "order": "33",
+        "subcategory": []
+      },
+      {
+        "id": "136795",
+        "name": "Vinos",
+        "order": "34",
+        "subcategory": [
+          {
+            "id": "136796",
+            "name": "Vinos Blancos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136797",
+            "name": "Vinos Tintos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136798",
+            "name": "Vinos Rosados",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136799",
+            "name": "Vinos Frizantes",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136800",
+        "name": "Whiskys",
+        "order": "35",
+        "subcategory": []
+      }
+    ]
+  },
+  {
+    "id": "102",
+    "name": "Frutas y Verduras",
+    "icon":"🥑",
+    "order": "113",
+    "subcategory": [
+      {
+        "id": "243206",
+        "name": "Frutas",
+        "order": "41",
+        "subcategory": [
+          {
+            "id": "243210",
+            "name": "Frutas Congeladas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243207",
+            "name": "Frutas Empaquetadas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243208",
+            "name": "Frutas Secas y Desecadas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243209",
+            "name": "Frutas Sueltas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "243237",
+        "name": "Verduras",
+        "order": "42",
+        "subcategory": [
+          {
+            "id": "243238",
+            "name": "Hortalizas Livianas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243239",
+            "name": "Hortalizas Pesadas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243244",
+            "name": "Verduras Congeladas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243240",
+            "name": "Verduras Empaquetadas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243241",
+            "name": "Verduras Frescas de Hoja",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243242",
+            "name": "Verduras Procesadas y Ensaladas Listas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "243243",
+            "name": "Verduras Secas y Desecadas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136814",
+        "name": "Hierbas Aromáticas y Plantines",
+        "order": "43",
+        "subcategory": []
+      },
+      {
+        "id": "136815",
+        "name": "Huevos",
+        "order": "44",
+        "subcategory": []
+      },
+      {
+        "id": "136817",
+        "name": "Legumbres, Granos y Semillas",
+        "order": "45",
+        "subcategory": []
+      },
+      {
+        "id": "136818",
+        "name": "Orgánicos",
+        "order": "46",
+        "subcategory": []
+      },
+      {
+        "id": "136819",
+        "name": "Carbón y Leña",
+        "order": "47",
+        "subcategory": []
+      }
+    ]
+  },
+  {
+    "id": "103",
+    "name": "Carnes y Pescados",
+    "order": "114",
+    "icon":"🍖",
+    "subcategory": [
+      {
+        "id": "136820",
+        "name": "Carne de Cerdo",
+        "order": "51",
+        "subcategory": []
+      },
+      {
+        "id": "136821",
+        "name": "Carne Vacuna",
+        "order": "52",
+        "subcategory": [
+          {
+            "id": "136822",
+            "name": "Novillito",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136823",
+            "name": "Ternera",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136824",
+            "name": "La Hacienda Premium",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136825",
+            "name": "La Hacienda Kosher",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136831",
+        "name": "Cordero, Lechón, Chivito y Conejo",
+        "order": "53",
+        "subcategory": [
+          {
+            "id": "136832",
+            "name": "Cordero",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136833",
+            "name": "Lechón",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136834",
+            "name": "Chivito",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136835",
+            "name": "Conejo",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136836",
+        "name": "Embutidos",
+        "order": "54",
+        "subcategory": [
+          {
+            "id": "136837",
+            "name": "Chorizos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136838",
+            "name": "Morcilla",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136839",
+            "name": "Salchichas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136841",
+        "name": "Listos para Cocinar",
+        "order": "55",
+        "subcategory": []
+      },
+      {
+        "id": "136842",
+        "name": "Menudencias",
+        "order": "56",
+        "subcategory": []
+      },
+      {
+        "id": "136846",
+        "name": "Pollos",
+        "order": "57",
+        "subcategory": [
+          {
+            "id": "136847",
+            "name": "Pollos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136848",
+            "name": "Pavos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136852",
+        "name": "Pescados y Mariscos",
+        "order": "58",
+        "subcategory": [
+          {
+            "id": "136853",
+            "name": "Pescados",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136854",
+            "name": "Mariscos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136855",
+        "name": "Carbón y Leña",
+        "order": "59",
+        "subcategory": []
+      }
+    ]
+  },
+  {
+    "id": "104",
+    "name": "Quesos y Fiambres",
+    "order": "115",
+    "icon":"🧀",
+    "subcategory": [
+      {
+        "id": "136856",
+        "name": "Dulces",
+        "order": "61",
+        "subcategory": []
+      },
+      {
+        "id": "136857",
+        "name": "Encurtidos, Aceitunas y Pickles",
+        "order": "62",
+        "subcategory": []
+      },
+      {
+        "id": "136858",
+        "name": "Fiambres",
+        "order": "63",
+        "subcategory": [
+          {
+            "id": "136859",
+            "name": "Jamón Cocido y Crudo",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136860",
+            "name": "Fiambres",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136861",
+        "name": "Patés",
+        "order": "64",
+        "subcategory": []
+      },
+      {
+        "id": "136892",
+        "name": "Quesos",
+        "order": "65",
+        "subcategory": [
+          {
+            "id": "136893",
+            "name": "Quesos Untables",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136894",
+            "name": "Quesos Muzzarella",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136895",
+            "name": "Quesos Port Salut y Cremosos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136896",
+            "name": "Quesos Semiblandos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136897",
+            "name": "Quesos Duros",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136898",
+            "name": "Quesos Especiales e Importados",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136899",
+            "name": "Quesos Rallados",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136870",
+        "name": "Salchichas",
+        "order": "66",
+        "subcategory": []
+      }
+    ]
+  },
+  {
+    "id": "105",
+    "name": "Lácteos",
+    "icon":"🥛",
+    "order": "116",
+    "subcategory": [
+      {
+        "id": "136871",
+        "name": "Cremas",
+        "order": "71",
+        "subcategory": []
+      },
+      {
+        "id": "136872",
+        "name": "Dulce de Leche",
+        "order": "72",
+        "subcategory": []
+      },
+      {
+        "id": "136873",
+        "name": "Leches",
+        "order": "73",
+        "subcategory": [
+          {
+            "id": "136874",
+            "name": "Leches Cultivadas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136875",
+            "name": "Leches Larga Vida",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136876",
+            "name": "Leches Refrigeradas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136877",
+            "name": "Leches Saborizadas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136878",
+        "name": "Mantecas y Margarinas",
+        "order": "74",
+        "subcategory": [
+          {
+            "id": "136879",
+            "name": "Manteca",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136880",
+            "name": "Margarinas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136881",
+        "name": "Pastas Frescas y Tapas",
+        "order": "75",
+        "subcategory": [
+          {
+            "id": "136883",
+            "name": "Fideos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136884",
+            "name": "Masas y Levaduras",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136885",
+            "name": "Ñoquis",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136886",
+            "name": "Pastas Rellenas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136887",
+            "name": "Tapas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136888",
+        "name": "Postres",
+        "order": "76",
+        "subcategory": []
+      },
+      {
+        "id": "136900",
+        "name": "Quesos",
+        "order": "77",
+        "subcategory": [
+          {
+            "id": "136901",
+            "name": "Quesos Port Salud y Cremosos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136902",
+            "name": "Quesos Untables",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136903",
+            "name": "Ricota",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136889",
+        "name": "Yogures",
+        "order": "78",
+        "subcategory": [
+          {
+            "id": "136890",
+            "name": "Yogures Descremados",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136891",
+            "name": "Yogures Enteros",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "106",
+    "name": "Congelados",
+    "order": "117",
+    "icon":"❄️",
+    "subcategory": [
+      {
+        "id": "136918",
+        "name": "Comidas Congeladas",
+        "order": "81",
+        "subcategory": [
+          {
+            "id": "136921",
+            "name": "Comidas Congeladas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136920",
+            "name": "Empanadas y Tartas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136919",
+            "name": "Pizzas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136908",
+        "name": "Frutas",
+        "order": "82",
+        "subcategory": []
+      },
+      {
+        "id": "136910",
+        "name": "Hamburguesas y Milanesas",
+        "order": "83",
+        "subcategory": []
+      },
+      {
+        "id": "136911",
+        "name": "Helados y Postres",
+        "order": "84",
+        "subcategory": [
+          {
+            "id": "136912",
+            "name": "Helados",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136913",
+            "name": "Postres",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136914",
+        "name": "Papas",
+        "order": "85",
+        "subcategory": []
+      },
+      {
+        "id": "136915",
+        "name": "Pescados y Mariscos",
+        "order": "86",
+        "subcategory": []
+      },
+      {
+        "id": "136916",
+        "name": "Pollo",
+        "order": "87",
+        "subcategory": []
+      },
+      {
+        "id": "136917",
+        "name": "Vegetales",
+        "order": "88",
+        "subcategory": []
+      }
+    ]
+  },
+  {
+    "id": "107",
+    "name": "Elaborados",
+    "icon":"🥐",
+    "order": "118",
+    "subcategory": [
+      {
+        "id": "136922",
+        "name": "Panadería",
+        "order": "91",
+        "subcategory": [
+          {
+            "id": "136923",
+            "name": "Panadería",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136924",
+            "name": "Pizzas y Prepizzas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136925",
+            "name": "Sándwiches",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136929",
+        "name": "Pastas Frescas",
+        "order": "92",
+        "subcategory": [
+          {
+            "id": "136930",
+            "name": "Pastas Frescas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136931",
+            "name": "Salsas y Quesos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136932",
+        "name": "Reposteria",
+        "order": "93",
+        "subcategory": []
+      },
+      {
+        "id": "136933",
+        "name": "Comidas Preparadas",
+        "order": "94",
+        "subcategory": [
+          {
+            "id": "136934",
+            "name": "Menú Caliente",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136935",
+            "name": "Menú Frío",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136936",
+            "name": "Postres",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "115",
+    "name": "Perfumeria",
+    "order": "119",
+    "AgrupacionArchivo": "785134.jpg",
+    "AgrupacionTitulo": "Probalo Gratis",
+    "AgrupacionUrl": "https://www.disco.com.ar/Comprar/Home.aspx#_atCategory=false&_atGrilla=true&_id=51937",
+    "AgrupacionTargetUrl": "1",
+    "subcategory": [
+      {
+        "id": "136937",
+        "name": "Cuidado Capilar",
+        "order": "101",
+        "subcategory": [
+          {
+            "id": "136944",
+            "name": "Accesorios",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136938",
+            "name": "Acondicionadores",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136939",
+            "name": "Coloración",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136940",
+            "name": "Fijación",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136941",
+            "name": "Pediculosis",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136942",
+            "name": "Reparación y Tratamientos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136943",
+            "name": "Shampoo",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136945",
+        "name": "Cuidado Personal",
+        "order": "102",
+        "subcategory": [
+          {
+            "id": "136946",
+            "name": "Cepillos y Esponjas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136947",
+            "name": "Depilación",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136948",
+            "name": "Desodorantes de Hombres",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136949",
+            "name": "Desodorantes de Mujer",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136950",
+            "name": "Desodorantes y Polvos Pédicos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136951",
+            "name": "Geles de Ducha",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136952",
+            "name": "Jabones",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136953",
+            "name": "Protección Femenina",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136954",
+            "name": "Productos para Afeitarse",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136955",
+            "name": "Quitaesmaltes",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136957",
+        "name": "Cuidado de la Piel",
+        "order": "103",
+        "subcategory": [
+          {
+            "id": "136958",
+            "name": "Cremas Corporales",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136959",
+            "name": "Cremas Desmaquillantes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136960",
+            "name": "Cremas Faciales",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136961",
+            "name": "Solares y Post-Solares",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136963",
+        "name": "Cuidado Oral",
+        "order": "104",
+        "subcategory": [
+          {
+            "id": "136967",
+            "name": "Accesorios Dentales",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136965",
+            "name": "Cepillos Dentales",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136966",
+            "name": "Enjuagues Bucales",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136964",
+            "name": "Pastas Dentales",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136968",
+        "name": "Farmacia",
+        "order": "105",
+        "subcategory": [
+          {
+            "id": "136969",
+            "name": "Algodón",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136970",
+            "name": "Antisépticos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136971",
+            "name": "Apósitos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136973",
+            "name": "Pañales Para Adultos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136972",
+            "name": "Preservativos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136974",
+        "name": "Pañales e Higiene del Bebé",
+        "order": "106",
+        "subcategory": [
+          {
+            "id": "136975",
+            "name": "Pañales",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136976",
+            "name": "Higiene del Bebé",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136977",
+            "name": "Accesorios",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "108",
+    "name": "Limpieza",
+    "order": "120",
+    "icon":"✨",
+    "AgrupacionArchivo": "785134.jpg",
+    "AgrupacionTitulo": "Probalo Gratis",
+    "AgrupacionUrl": "https://www.disco.com.ar/Comprar/Home.aspx#_atCategory=false&_atGrilla=true&_id=51937",
+    "AgrupacionTargetUrl": "1",
+    "subcategory": [
+      {
+        "id": "136978",
+        "name": "Accesorios de Limpieza",
+        "order": "111",
+        "subcategory": [
+          {
+            "id": "136980",
+            "name": "Baldes y Mopas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136981",
+            "name": "Bolsas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136982",
+            "name": "Broches y Ganchos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136983",
+            "name": "Escobas, Escobillones y Escobillas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136984",
+            "name": "Esponjas y Guantes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136988",
+            "name": "Palas y Cabos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136985",
+            "name": "Paños Multiusos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136986",
+            "name": "Secadores y Cepillos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136987",
+            "name": "Trapos de Piso",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136989",
+        "name": "Calzado",
+        "order": "112",
+        "subcategory": [
+          {
+            "id": "136990",
+            "name": "Brillos y Revividores",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136991",
+            "name": "Limpiadores",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136992",
+            "name": "Pomadas Para Calzado",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "136993",
+        "name": "Cuidado para la Ropa",
+        "order": "113",
+        "subcategory": [
+          {
+            "id": "136994",
+            "name": "Aprestos y Blanqueadores",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136995",
+            "name": "Cepillo para Ropa",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136997",
+            "name": "Detergente Para Ropa",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136996",
+            "name": "Jabón en Pan",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136998",
+            "name": "Quitamanchas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "136999",
+            "name": "Suavizantes",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137008",
+        "name": "Desodorantes de Ambiente",
+        "order": "114",
+        "subcategory": [
+          {
+            "id": "137009",
+            "name": "Absorbe Humedad",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137010",
+            "name": "Aromatizantes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137011",
+            "name": "Desodorantes y Desinfectantes",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137012",
+        "name": "Insecticidas",
+        "order": "115",
+        "subcategory": [
+          {
+            "id": "137013",
+            "name": "Aerosoles",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137014",
+            "name": "Aparatos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137015",
+            "name": "Cebos, Bolillas y Pastillas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137016",
+            "name": "Polvos y Líquidos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137017",
+            "name": "Repelentes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137018",
+            "name": "Tabletas y Difusores",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137019",
+        "name": "Lavandina",
+        "order": "116",
+        "subcategory": []
+      },
+      {
+        "id": "137020",
+        "name": "Limpieza de Baño",
+        "order": "117",
+        "subcategory": [
+          {
+            "id": "137021",
+            "name": "Desinfectantes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137022",
+            "name": "Destapa Cañería",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137023",
+            "name": "Pastillas y Bloques",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137024",
+        "name": "Limpieza de Cocina",
+        "order": "118",
+        "subcategory": [
+          {
+            "id": "137025",
+            "name": "Detergentes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137026",
+            "name": "Escarbadientes",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137027",
+            "name": "Fósforos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137028",
+            "name": "Limpiadores",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137029",
+            "name": "Limpiavidrios",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137030",
+            "name": "Productos Para Lavavajillas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137031",
+        "name": "Limpieza de Pisos y Muebles",
+        "order": "119",
+        "subcategory": [
+          {
+            "id": "137032",
+            "name": "Ceras y  Autobrillos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137033",
+            "name": "Limpiadores de Pisos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137034",
+            "name": "Lustramuebles",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137035",
+        "name": "Papeles",
+        "order": "120",
+        "subcategory": [
+          {
+            "id": "137036",
+            "name": "Pañuelos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137037",
+            "name": "Papel Higiénico",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137038",
+            "name": "Rollos de Cocina",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137039",
+            "name": "Servilletas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "109",
+    "name": "Mascotas",
+    "icon":"🐰",
+    "order": "121",
+    "subcategory": [
+      {
+        "id": "137040",
+        "name": "Perros",
+        "order": "131",
+        "subcategory": [
+          {
+            "id": "137041",
+            "name": "Secos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137042",
+            "name": "Húmedos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137043",
+        "name": "Gatos",
+        "order": "132",
+        "subcategory": [
+          {
+            "id": "137044",
+            "name": "Secos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137045",
+            "name": "Húmedos",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137046",
+        "name": "Otros Animales",
+        "order": "133",
+        "subcategory": []
+      },
+      {
+        "id": "137048",
+        "name": "Accesorios",
+        "order": "134",
+        "subcategory": []
+      }
+    ]
+  },
+  {
+    "id": "110",
+    "name": "Electro y Hogar",
+    "icon":"💻",
+    "order": "122",
+    "subcategory": [
+      {
+        "id": "137049",
+        "name": "Tecnología y Electrodomésticos",
+        "order": "141",
+        "subcategory": [
+          {
+            "id": "137051",
+            "name": "Aires y Ventilación",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137057",
+            "name": "Audio",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137052",
+            "name": "Calefacción, Calefones y Termotanques",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137053",
+            "name": "Cocinas, Hornos y Microondas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137054",
+            "name": "Heladeras, Freezers y Cavas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137060",
+            "name": "Consolas y Videojuegos",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137061",
+            "name": "Informática",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137055",
+            "name": "Lavarropas, Secarropas y Lavavajillas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137056",
+            "name": "Pequeños Electros",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137058",
+            "name": "Teléfonos y Celulares",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137059",
+            "name": "Tv y Video",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137062",
+        "name": "Aire Libre",
+        "order": "142",
+        "subcategory": [
+          {
+            "id": "137063",
+            "name": "Accesorios para Piletas y Cloros",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137066",
+            "name": "Camping y Parrillas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137064",
+            "name": "Deportes y Fitness",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137065",
+            "name": "Herramientas y Accesorios de Jardín",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137071",
+        "name": "Muebles",
+        "order": "143",
+        "subcategory": [
+          {
+            "id": "137074",
+            "name": "Muebles de Interior",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "137075",
+        "name": "Ferretería y Automotor",
+        "order": "144",
+        "subcategory": [
+          {
+            "id": "137077",
+            "name": "Accesorios de Electricidad",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137078",
+            "name": "Ferretería",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137079",
+            "name": "Lámparas",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "137080",
+            "name": "Pilas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "163960",
+        "name": "Hogar",
+        "order": "145",
+        "subcategory": [
+          {
+            "id": "163962",
+            "name": "Artículos de Cocina",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163963",
+            "name": "Bolsas Para Horno, Freezer y Films",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163971",
+            "name": "Cotillón",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163970",
+            "name": "Decoración",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163964",
+            "name": "Organización",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163965",
+            "name": "Ropa de Cama",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163966",
+            "name": "Toallas y Toallones",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163967",
+            "name": "Vajilla",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163968",
+            "name": "Vajilla Descartable",
+            "order": "",
+            "subcategory": []
+          },
+          {
+            "id": "163969",
+            "name": "Valijas",
+            "order": "",
+            "subcategory": []
+          }
+        ]
+      },
+      {
+        "id": "198310",
+        "name": "Libros",
+        "order": "147",
+        "subcategory": []
+      }
+    ]
+  }
+]

@@ -6,12 +6,12 @@ import {Button} from '../button/Button';
 import QuantityPicker from '../quantity-picker/QuantityPicker';
 import PropTypes from 'prop-types';
 
-let timeout = null;
 
 class ProductItem extends PureComponent {
   constructor() {
     super();
     this.state = {adding: false, quantity: 0};
+    this.timeout = null;
   }
 
   updateQuantity = (quantity) => {
@@ -21,10 +21,10 @@ class ProductItem extends PureComponent {
 
   updateAdding = () => {
     this.setState({adding: true});
-    if (timeout) {
-      clearTimeout(timeout);
+    if (this.timeout) {
+      clearTimeout(this.timeout);
     }
-    timeout = setTimeout(() => {
+    this.timeout = setTimeout(() => {
       this.setState({adding: false});
     }, 3000);
   };
