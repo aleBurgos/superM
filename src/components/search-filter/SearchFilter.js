@@ -2,9 +2,9 @@ import React, {PureComponent} from 'react';
 import {View, FlatList, Text, TouchableOpacity} from 'react-native';
 import categories from './categories';
 import styles from './SearchFilter.less';
-import ProductItem from '../product-item/ProductItem';
 import PropTypes from 'prop-types';
 
+let timeout = null;
 export class SearchFilter extends PureComponent {
 
   constructor() {
@@ -13,44 +13,49 @@ export class SearchFilter extends PureComponent {
       firstLvlCategory: {},
       secondLvlCategory: {},
       thirdLvlCategory: {},
+      selected: null,
     };
   }
 
-  // render1LevelCategories = () => {
-  //   const _this = this;
-  //   const addFilter = (filter) => {
-  //     _this.setState({firstLvlCategories: filter});
-  //   };
-  //   return ({item}) => {
-  //     item.selected = _this.state.firstLvlCategories && _this.state.firstLvlCategories.id === item.id;
-  //     return this.renderItem(item, addFilter);
-  //   };
-  // };
-
   on1CategoryPress = (categoryFirstLvl) => {
     const {firstLvlCategory} = this.state;
-    const state = {firstLvlCategory:categoryFirstLvl};
-    if(firstLvlCategory.id !==categoryFirstLvl.id){
+    const state = {firstLvlCategory: categoryFirstLvl};
+
+    if (firstLvlCategory.id !== categoryFirstLvl.id) {
       state.secondLvlCategory = {};
-    }else{
+    } else {
       state.firstLvlCategory = {};
       state.secondLvlCategory = {};
+      state.thirdLvlCategory = {};
     }
     this.setState(state);
   };
-  on2CategoryPress = (secondLvlCategory) => {
+
+
+
+  handleOnCategorySelected = (category) => {
     const {onCategorySelected} = this.props;
-    this.setState({secondLvlCategory});
+    onCategorySelected(category);
+    clearTimeout(timeout);
+    timeout = setTimeout(()=>{
+      this.setState({selected: category});
+    },1000)
+  };
+
+  on2CategoryPress = (secondLvlCategory) => {
+    const state = {secondLvlCategory};
     if (!secondLvlCategory.subcategory.length) {
-      onCategorySelected(secondLvlCategory);
+      this.handleOnCategorySelected(secondLvlCategory);
     }
+
+    this.setState(state);
   };
   on3CategoryPress = (thirdLvlCategory) => {
-    const {onCategorySelected} = this.props;
     this.setState({thirdLvlCategory});
-    onCategorySelected(thirdLvlCategory);
+    this.handleOnCategorySelected(thirdLvlCategory);
   };
-  renderCategoryFilter = (categories = [], onCategoryPress) => {
+
+  renderCategoryFilter = (categories = [], onCategoryPress = () => {}) => {
     if (!categories.length) {
       return null;
     }
@@ -115,14 +120,39 @@ export class SearchFilter extends PureComponent {
     });
   };
 
+  renderFilterSelected = () => {
+    const {firstLvlCategory, secondLvlCategory, thirdLvlCategory} = this.state;
+    const filters = [];
+    const _this = this;
+
+    const selectFilter = () => {
+      _this.setState({selected: null});
+    };
+
+    if (firstLvlCategory.id) {
+      filters.push({...firstLvlCategory, selected: false});
+    }
+    if (secondLvlCategory.id) {
+      filters.push({...secondLvlCategory, selected: false});
+    }
+    if (thirdLvlCategory.id) {
+      filters.push({...thirdLvlCategory, selected: true});
+    }
+    return this.renderCategoryFilter(filters, selectFilter);
+  };
+
   render() {
+    const {selected} = this.state;
     return (<View style={styles.search_filter}>
-      {this.renderCategoryFilter(this.get1LevelCategories(),
-          this.on1CategoryPress)}
-      {this.renderCategoryFilter(this.get2LevelCategories(),
-          this.on2CategoryPress)}
-      {this.renderCategoryFilter(this.get3LevelCategories(),
-          this.on3CategoryPress)}
+      {selected && this.renderFilterSelected()}
+      {!selected && <View>
+        {this.renderCategoryFilter(this.get1LevelCategories(),
+            this.on1CategoryPress)}
+        {this.renderCategoryFilter(this.get2LevelCategories(),
+            this.on2CategoryPress)}
+        {this.renderCategoryFilter(this.get3LevelCategories(),
+            this.on3CategoryPress)}
+      </View>}
     </View>);
   }
 }
