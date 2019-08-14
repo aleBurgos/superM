@@ -6,7 +6,6 @@ import {Button} from '../button/Button';
 import QuantityPicker from '../quantity-picker/QuantityPicker';
 import PropTypes from 'prop-types';
 
-
 class ProductItem extends PureComponent {
   constructor() {
     super();
@@ -15,6 +14,14 @@ class ProductItem extends PureComponent {
   }
 
   updateQuantity = (quantity) => {
+    const {item, addProduct, removeProduct} = this.props;
+
+    if (this.state.quantity < quantity) {
+      addProduct(item);
+    } else {
+      removeProduct(item);
+    }
+
     this.setState({quantity});
     this.updateAdding();
   };
@@ -48,9 +55,11 @@ class ProductItem extends PureComponent {
   renderPrice = () => {
     const {quantity} = this.state;
     const {item} = this.props;
-    const subTotal = <Text> x <Text style={styles.pi_info__total}>{quantity}</Text> =
-      <Text style={styles.pi_info__price}> ${(item.priceTotal * quantity).toFixed(2)}</Text></Text>
-    return <Text >${item.priceTotal}{quantity>0 && subTotal} </Text>;
+    const subTotal = <Text> x <Text
+        style={styles.pi_info__total}>{quantity}</Text> =
+      <Text style={styles.pi_info__price}> ${(item.priceTotal *
+          quantity).toFixed(2)}</Text></Text>;
+    return <Text>${item.priceTotal}{quantity > 0 && subTotal} </Text>;
   };
 
   render() {
@@ -61,11 +70,12 @@ class ProductItem extends PureComponent {
       <View style={styles.product_item__img}>
         <Image source={{
           uri: item.imageSmall,
-        }} style={{flex:1}}/>
+        }} style={{flex: 1}}/>
       </View>
       <View style={styles.product_item__info}>
         <Text style={styles.pi_info__title}>{item.description}</Text>
-        <Text style={styles.pi_info__unit}>${item.priceByUnit} x {item.priceUnit}</Text>
+        <Text
+            style={styles.pi_info__unit}>${item.priceByUnit} x {item.priceUnit}</Text>
         {item.promo && <Text style={styles.pi_info__promo}>{item.promo}</Text>}
         {this.renderPrice()}
       </View>
@@ -80,7 +90,7 @@ class ProductItem extends PureComponent {
 }
 
 ProductItem.propTypes = {
-  item: PropTypes.object
+  item: PropTypes.object,
 };
 ProductItem.defaultProps = {};
 export default ProductItem;
